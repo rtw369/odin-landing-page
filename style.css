@@ -1,5 +1,6 @@
 body {
     height: 100vh;
+    font-family: sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -23,30 +24,128 @@ body {
 }
 
 ul {
-    
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
 }
 
 a {
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1f2937;
-    padding: 36px 96px;
+    padding: 64px 96px;
+    gap: 36px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 480px;
+    height: 240px;
+}
+
+card {
+    background-color: grey;
+    width: 480px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 128px;
+    gap: 48px;
+}
 
+.infos {
+    display: flex;
+    gap: 48px;
+}
+
+.separate {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info {
+    border-radius: 25px;
+    width: 128px;
+    height: 128px;
+    border: 4px solid #3882f6;
+}
+
+.text {
+    width: 144px;
+    height: auto;
+    text-align: center;
 }
 
 .quoteSection {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 128px;
+}
 
+.quote {
+    width: 600px;
+    height: auto;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quoter {
+    width: 600px;
+    text-align: end;
+    font-weight: bold;
 }
 
 .callToAction {
+    align-items: center;
+    justify-content: center;
+    padding: 64px 96px;
+}
 
+.advertisement {
+    border-radius: 25px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    gap: 24px;
 }
 
 .footer {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+}
 
+button {
+    border-radius: 25px;
+    width: 120px;
+    height: 48px;
+    border: 2px solid white;
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
 }
